@@ -57,4 +57,12 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+// Koin core features
+    implementation(libs.insert.koin.koin.core)
+
+// Koin Android
+    implementation(libs.insert.koin.koin.android)
+
+// Koin AndroidX Compose (لو بتستخدم Jetpack Compose)
+    implementation(libs.koin.androidx.compose)
 }
